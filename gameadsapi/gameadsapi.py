@@ -1,5 +1,3 @@
-from typing import Any
-
 import aiohttp
 
 
@@ -26,7 +24,7 @@ class GameAds:
                     return await response.json()
         return False
 
-    async def get_subs_list(self, user_id: int, count_places: int = -1) -> list[Any] | Any:
+    async def get_subs_list(self, user_id: int, count_places: int = -1):
         """
         Используйте этот метод, чтобы получить список спонсорских заданий и самостоятельно отправлять сообщение пользователям.
 

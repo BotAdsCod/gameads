@@ -1,1 +1,1 @@
-from .gameadsapi import BotAds
+from .gameadsapi import GameAds
